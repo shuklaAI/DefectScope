@@ -1,0 +1,65 @@
+{
+  "model_type": "RandomForestClassifier",
+  "model_version": "1.0.0",
+  "feature_names": [
+    "mean_intensity",
+    "std_intensity",
+    "min_intensity",
+    "max_intensity",
+    "entropy",
+    "local_variance_mean",
+    "edge_density_global",
+    "glcm_contrast",
+    "glcm_homogeneity",
+    "glcm_energy",
+    "glcm_correlation",
+    "largest_area",
+    "largest_perimeter",
+    "largest_aspect_ratio",
+    "largest_extent",
+    "largest_solidity",
+    "largest_circularity",
+    "largest_eccentricity",
+    "num_components",
+    "total_defect_area",
+    "avg_component_area",
+    "total_defect_percent",
+    "contour_count"
+  ],
+  "label_map": {
+    "0": "crazing",
+    "1": "inclusion",
+    "2": "patches",
+    "3": "pitted_surface",
+    "4": "rolled-in_scale",
+    "5": "scratches"
+  },
+  "class_names": [
+    "crazing",
+    "inclusion",
+    "patches",
+    "pitted_surface",
+    "rolled-in_scale",
+    "scratches"
+  ],
+  "dataset_name": "NEU-CLS (NEU Surface Defect Database, classification variant)",
+  "dataset_class_counts": {
+    "crazing": 300,
+    "inclusion": 300,
+    "patches": 299,
+    "pitted_surface": 300,
+    "rolled-in_scale": 300,
+    "scratches": 300
+  },
+  "total_samples": 1799,
+  "train_samples": 1439,
+  "test_samples": 360,
+  "random_seed": 42,
+  "test_size": 0.2,
+  "training_date_utc": "2026-10-10T14:11:31.026158+00:00",
+  "sklearn_random_forest_params": {
+    "n_estimators": 300,
+    "max_depth": null
+  },
+  "training_duration_seconds": 56.75
+}

@@ -1,0 +1,19 @@
+# Versions below are the exact ones the project was developed, trained and tested with
+# (Python 3.12.3). The saved model in models/ was pickled with this scikit-learn version;
+# using a different scikit-learn may emit InconsistentVersionWarning or fail to load it
+# (retrain with `python ml/train_classifier.py` if you must change versions).
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+sqlalchemy==2.1.1
+pydantic==2.13.5
+opencv-python-headless==4.13.0.92
+numpy==2.4.4
+scikit-image==0.26.0
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# testing
+pytest==9.1.1
+httpx==0.28.1

@@ -1,0 +1,22 @@
+# Python environments, bytecode, and test caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and generated frontend build
+node_modules/
+dist/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local inspection uploads, generated stage images, and SQLite history
+/backend/storage/*
+!/backend/storage/uploads/
+!/backend/storage/uploads/.gitkeep
+!/backend/storage/results/
+!/backend/storage/results/.gitkeep

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #eeede8; }
+::-webkit-scrollbar-thumb { background: #c4c4bc; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #a9aaa1; }
+
+.card {
+  @apply bg-ink-800 border border-ink-600 rounded-sm;
+}
+
+.label-chip {
+  @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-sm text-xs font-mono border;
+}

@@ -1,0 +1,10 @@
+storage/uploads/*
+storage/results/*
+storage/inspections.db
+storage/demo_dataset/
+!storage/uploads/.gitkeep
+!storage/results/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
