@@ -34,6 +34,15 @@ statistics separately and model-evaluation metrics never come from inspection hi
 - In-app Methodology page and viva question bank written to match what the code does
 - 36 automated backend tests (unit, API, and real-image end-to-end)
 
+**##Screenshots**
+
+<img width="1853" height="957" alt="image" src="https://github.com/user-attachments/assets/3c499114-3543-489c-ae7e-789402d2b038" />
+<img width="1853" height="957" alt="image" src="https://github.com/user-attachments/assets/98fbea25-be6f-42d8-bc86-901746851e0b" />
+<img width="1853" height="957" alt="image" src="https://github.com/user-attachments/assets/464a9d79-d9e6-4f80-8f69-1f40546dd6cc" />
+<img width="1862" height="628" alt="image" src="https://github.com/user-attachments/assets/9fe2b576-7eca-4957-8441-901715845010" />
+<img width="1862" height="780" alt="image" src="https://github.com/user-attachments/assets/a51b746d-59bf-48dc-a3b4-fc0ce3ed43fa" />
+<img width="1864" height="946" alt="image" src="https://github.com/user-attachments/assets/c8ddfb3f-13ba-451b-82a8-947ed0d587fb" />
+
 ## Architecture
 
 ```
